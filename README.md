@@ -1,16 +1,21 @@
-## Hi there 👋
+# 👋 Hey, I'm Efe.
 
-<!--
-**gorevyoneticisi/gorevyoneticisi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Student of Amigoscode—a backend developer focused on Java, Spring Boot, Docker, and AWS ☕🚀
 
-Here are some ideas to get you started:
+I build applications, contribute to open-source projects, and be part of real-world projects to grow and get better.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔗 About Me
+
+- 🧑‍💻 Student at Kaunas University Technology specializing in computer science and intern at Amigoscode
+
+- 🎓 Familiar with Java, Spring Boot, PostgreSQL, Docker, and AWS
+
+- 💬 Open to collaboration, open-source, and working on big projects
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats-nine-weld-69.vercel.app/api?username=Yusufgoobrr&show_icons=true&theme=tokyonight&hide_border=true)
+
+## 🧠 Top Languages
+
+![Top Languages](https://github-readme-stats-nine-weld-69.vercel.app/api/top-langs/?username=Yusufgoobrr&layout=compact&theme=tokyonight&hide_border=true)
