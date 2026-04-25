@@ -14,8 +14,8 @@ I build applications, contribute to open-source projects, and be part of real-wo
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-nine-weld-69.vercel.app/api?username=Yusufgoobrr&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats-nine-weld-69.vercel.app/api?username=gorevyoneticisi&show_icons=true&theme=tokyonight&hide_border=true)
 
 ## 🧠 Top Languages
 
-![Top Languages](https://github-readme-stats-nine-weld-69.vercel.app/api/top-langs/?username=Yusufgoobrr&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats-nine-weld-69.vercel.app/api/top-langs/?username=gorevyoneticisi&layout=compact&theme=tokyonight&hide_border=true)
