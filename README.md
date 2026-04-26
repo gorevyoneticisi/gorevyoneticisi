@@ -7,7 +7,7 @@ I bridge the gap between high-level backend architecture and low-level hardware 
 ## 🔗 Engineering Profile
 
 * **Academic:** Informatics BSc student at Kaunas University of Technology (KTU).
-* **Experience:** Backend engineering intern at Amigoscode.
+* **Experience:** CTO @ World Study Hub SL
 * **Specialization:** Relocating to Spain in August 2026 for the ASIR (Networked Computer Systems Administration) program at UAX.
 * **The Lab:** Operating a cluster of HP EliteDesk and Lenovo ThinkCentre M710q nodes running Docker, Proxmox, and Cloudflare Zero Trust.
 
