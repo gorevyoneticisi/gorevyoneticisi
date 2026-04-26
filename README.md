@@ -1,16 +1,29 @@
 # 👋 Hey, I'm Efe.
 
-Student of Amigoscode—a backend developer focused on Java, Spring Boot, Docker, and AWS ☕🚀
+**Systems Architect | Backend Engineer | Hardware Technician**
 
-I build applications, contribute to open-source projects, and be part of real-world projects to grow and get better.
+I bridge the gap between high-level backend architecture and low-level hardware optimization. My work focuses on building resilient data pipelines and managing localized infrastructure. Currently architecting the Maritime Intelligence Command Center from my Proxmox-based home lab.
 
-## 🔗 About Me
+## 🔗 Engineering Profile
 
-- 🧑‍💻 Student at Kaunas University Technology specializing in computer science and intern at Amigoscode
+* **Academic:** Informatics BSc student at Kaunas University of Technology (KTU).
+* **Experience:** Backend engineering intern at Amigoscode.
+* **Specialization:** Relocating to Spain in August 2026 for the ASIR (Networked Computer Systems Administration) program at UAX.
+* **The Lab:** Operating a cluster of HP EliteDesk and Lenovo ThinkCentre M710q nodes running Docker, Proxmox, and Cloudflare Zero Trust.
 
-- 🎓 Familiar with Java, Spring Boot, PostgreSQL, Docker, and AWS
+## 🚢 Featured Project: Maritime Intelligence (MMIS)
 
-- 💬 Open to collaboration, open-source, and working on big projects
+A specialized engine designed for autonomous maritime data extraction and analysis.
+* **Logic:** Built with Node.js and Puppeteer featuring custom WAF bypass logic and memory-cycle browser management.
+* **Data:** Monitoring thousands of active records across Alphaliner and ShipSelector fleets.
+* **Security:** Integrated 2FA (TOTP) and HMAC-signed control planes for secure remote operations.
+
+## 🛠️ The Technical Stack
+
+* **Software:** Java (Spring Boot), Node.js, PostgreSQL, Docker, Git.
+* **Systems:** Windows IoT Enterprise/LTSC Optimization, Proxmox Virtualization, Linux Administration.
+* **Hardware:** Soldering, PCB Repair, ESP32 Microcontrollers (WLED), OBD2 Diagnostic Interfaces.
+* **Audio:** High-fidelity sound engineering using Equalizer APO and high-quality IEM tuning.
 
 ## 📊 GitHub Stats
 
