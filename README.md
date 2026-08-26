@@ -1,87 +1,57 @@
-<div align="center">
-
 # Efe
 
-**Embedded, Systems & Full-Stack Engineer**
+**Embedded systems · Automotive diagnostics · Linux infrastructure**
 
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com)
-[![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)](https://www.proxmox.com)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://www.cloudflare.com)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.linux.org)
-[![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](https://en.cppreference.com)
-[![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com)
-[![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)](https://www.st.com)
+I build practical systems where hardware, networking, and software meet—from
+STM32/CAN firmware and vehicle diagnostic tooling to self-hosted infrastructure
+and secure backend services.
 
-</div>
+Based in Madrid. Open to internships and junior opportunities in systems,
+infrastructure, networking, and embedded software.
 
----
+## Selected work
 
-I build firmware, backend systems, and the infrastructure they run on. Most of my projects exist because the tool I needed did not exist, so I built it from scratch.
+### [SAE J2534 PassThru DLL & STM32 CAN adapter](https://github.com/gorevyoneticisi/taskmanager-j2534)
 
-Moving to Spain in 2026 for the ASIR program at UAX.
+A Windows J2534-1 v04.04 implementation paired with a custom STM32F407 CAN
+adapter. It supports ISO 15765-2 multi-frame transport, multiple channels, and
+includes a WinForms diagnostic client.
 
----
+### [Enterprise Homelab Infrastructure](https://github.com/gorevyoneticisi/Enterprise-Homelab-Infrastructure)
 
-## Featured Work
+A documented hybrid infrastructure environment built around public VPS
+gateways, Docker, WireGuard, Cloudflare Zero Trust, monitoring, backups, and
+layered security controls.
 
-### [SAE J2534 PassThru DLL & STM32 CAN/OBD2 Adapter](https://github.com/gorevyoneticisi/taskmanager-j2534)
+### [DSP-W215 B1 OpenWrt research](https://github.com/gorevyoneticisi/dsp-w215-b1-openwrt-hacks)
 
-A complete SAE J2534-1 v04.04 PassThru DLL and custom STM32F407-based CAN adapter, built from scratch. Standard Windows diagnostic software talks to vehicles without proprietary OEM hardware.
+Research and tooling for the DSP-W215 B1 smart plug, covering OpenWrt access,
+device control, and power-monitoring experiments.
 
-- Full ISO 15765-2 transport layer: segmentation, reassembly, flow control
-- Multi-channel with configurable per-channel padding (BMW ISTA compatible)
-- Verified with Toyota Techstream, VW ODIS, Ford IDS, BMW ISTA-D
-- WinForms OBD2 reader for live sensor data and DTC management
+### [SSH and Tailscale recovery guide](https://github.com/gorevyoneticisi/ssh-tailscale-recovery-guide)
 
-### EV Battery Diagnostics Platform
+A practical recovery guide for diagnosing and restoring remote access when SSH
+or Tailscale stops working.
 
-Cross-platform EV diagnostics app reading battery State-of-Health and BMS data over ELM327 and J2534/UDS.
+## Current projects
 
-- Reverse-engineered manufacturer CAN/BMS profiles for 12+ EV platforms: BMW, Hyundai/Kia, Nissan, Renault, Tesla, VW MEB, Volvo/Polestar, BYD, MG
-- CI pipeline with automated testing across all profiles
+- **EV battery diagnostics:** a cross-platform diagnostic application for
+  battery data, vehicle profiles, and service workflows.
+- **Maritime intelligence platform:** a full-stack data platform with secure
+  authentication, automated ingestion, and self-hosted deployment.
 
-### Maritime Intelligence Platform (MMIS)
+## Tools I use
 
-Full-stack platform for maritime data aggregation and analysis.
+| Area | Technologies |
+| --- | --- |
+| Embedded and automotive | C, STM32, ESP32, CAN, OBD-II, J2534 |
+| Systems and infrastructure | Linux, Proxmox, Docker, WireGuard, Cloudflare, Bash, PowerShell |
+| Application development | C#, Python, JavaScript, TypeScript, Node.js, SQL |
 
-- Node.js/Express backend with EJS rendering and automated data collection
-- Auth: FIDO2 passkeys (WebAuthn), TOTP 2FA, HMAC-signed sessions, email OTP
-- Deployed on Proxmox behind Cloudflare Zero Trust, zero exposed ports
+## Current focus
 
-### Enterprise Homelab Infrastructure
+- Deepening Linux administration, networking, and infrastructure automation.
+- Improving the documentation and reproducibility of my public projects.
+- Building tools that solve problems I have encountered firsthand.
 
-[GitHub](https://github.com/gorevyoneticisi/Enterprise-Homelab-Infrastructure)
-
-Hybrid-cloud architecture bypassing CGNAT with WireGuard, Cloudflare Zero Trust, and KVM/Libvirt. Traffic filtered through CrowdSec.
-
----
-
-## Stack
-
-| Domain | Tools |
-|---|---|
-| Languages | C, C#, Python, JavaScript, TypeScript, Dart, Kotlin, Bash, PowerShell |
-| Embedded & Automotive | STM32, ESP32, CAN bus, OBD2, SAE J2534, UDS, ELM327, reverse engineering |
-| Backend & Web | Node.js, Express, EJS, Flutter, REST APIs |
-| Infrastructure | Proxmox, Docker, KVM/Libvirt, Linux, WireGuard, Cloudflare Zero Trust, CrowdSec |
-| Security | FIDO2/WebAuthn, TOTP 2FA, HMAC, system hardening |
-| Cloud | AWS, Azure, GCP (certified) |
-
----
-
-## Certifications
-
-Google IT Support | Google Cybersecurity | Google Project Management | IBM IT Support | AWS Cloud Support Associate | Microsoft Cloud Support Associate | Microsoft IT Support Specialist | Palo Alto Networks Cybersecurity | Advanced Network Security | Developing Industrial IoT (CU Boulder)
-
----
-
-## Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats-nine-weld-69.vercel.app/api?username=gorevyoneticisi&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats-nine-weld-69.vercel.app/api/top-langs/?username=gorevyoneticisi&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
+More about my work: [gorevyoneticisi.com.tr](https://gorevyoneticisi.com.tr/)
