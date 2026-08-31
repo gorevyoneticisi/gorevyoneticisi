@@ -2,7 +2,7 @@
 
 **Embedded systems · Automotive diagnostics · Linux infrastructure**
 
-I build practical systems where hardware, networking, and software meet—from
+I build practical systems where hardware, networking, and software meet, from
 STM32/CAN firmware and vehicle diagnostic tooling to self-hosted infrastructure
 and secure backend services.
 
