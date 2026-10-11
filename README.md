@@ -11,6 +11,15 @@ infrastructure, networking, and embedded software.
 
 ## Selected work
 
+### [Ford 6000CD (TMS470) car radio unlock research](https://github.com/gorevyoneticisi/ford-6000cd-tms470-unlock-research)
+
+An attempt to recover a permanently locked car radio down to the chip level: a CAN/UDS
+diagnostic adapter built from an ESP32, a cracked SecurityAccess scheme, a proven
+code-injection foothold into the bootloader's RAM, and a full JTAG/SCI investigation into
+why the processor's own flash security can't be reached with open tools. Unresolved, and
+documented as such. Built by directing Claude (an AI coding agent) for the protocol
+analysis and tooling while running the hardware side myself.
+
 ### [SAE J2534 PassThru DLL & STM32 CAN adapter](https://github.com/gorevyoneticisi/taskmanager-j2534)
 
 A Windows J2534-1 v04.04 implementation paired with a custom STM32F407 CAN
