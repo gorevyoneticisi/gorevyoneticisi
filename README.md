@@ -28,9 +28,10 @@ transmit protocol that reports per-frame status (queue full, no ACK within
 100ms, bus error) instead of fire-and-forget, live bus telemetry (frame
 counts, bus-off recovery, error counters), and dynamic PC-link bit rate
 negotiation up to 3 Mbps over USB. Supports ISO 15765-2 multi-frame transport
-and multiple channels, and works with real OEM diagnostic software, including
-BMW's ISTA, not just generic scan tools. Includes a WinForms diagnostic
-client.
+and multiple channels, and works with real OEM diagnostic suites rather than
+just generic scan tools: BMW ISTA, VW Group ODIS, Toyota Techstream, and
+Nissan Consult 3 Plus have all run against it successfully. Includes a
+WinForms diagnostic client.
 
 ### [Enterprise Homelab Infrastructure](https://github.com/gorevyoneticisi/Enterprise-Homelab-Infrastructure)
 
