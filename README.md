@@ -22,9 +22,15 @@ analysis and tooling while running the hardware side myself.
 
 ### [SAE J2534 PassThru DLL & STM32 CAN adapter](https://github.com/gorevyoneticisi/taskmanager-j2534)
 
-A Windows J2534-1 v04.04 implementation paired with a custom STM32F407 CAN
-adapter. It supports ISO 15765-2 multi-frame transport, multiple channels, and
-includes a WinForms diagnostic client.
+A full SAE J2534-1 v04.04 PassThru implementation paired with a custom
+STM32F407 CAN adapter: galvanically isolated CAN transceiver, a confirmed-
+transmit protocol that reports per-frame status (queue full, no ACK within
+100ms, bus error) instead of fire-and-forget, live bus telemetry (frame
+counts, bus-off recovery, error counters), and dynamic PC-link bit rate
+negotiation up to 3 Mbps over USB. Supports ISO 15765-2 multi-frame transport
+and multiple channels, and works with real OEM diagnostic software, including
+BMW's ISTA, not just generic scan tools. Includes a WinForms diagnostic
+client.
 
 ### [Enterprise Homelab Infrastructure](https://github.com/gorevyoneticisi/Enterprise-Homelab-Infrastructure)
 
